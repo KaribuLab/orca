@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Escaneo de seguridad Titvo
-        uses: KaribuLab/titvo-security-scan-action@3c7172d2a5d8bbaa8deef7ffff2704bb34b015a1
+        uses: KaribuLab/titvo-security-scan-action@3d055c8
         with:
           titvo_api_endpoint: ${{ vars.TITVO_API_ENDPOINT }}
           titvo_api_key: ${{ secrets.TITVO_API_KEY }}
