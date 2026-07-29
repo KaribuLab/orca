@@ -26,4 +26,4 @@ jobs:
           github_commit_sha: ${{ github.sha }}
           github_assignee: ${{ github.actor }}
           github_branch: ${{ github.head_ref || github.ref_name }}
-          scan_mode: ${{ vars.SCAN_MODE }}
+          scan_mode: full
